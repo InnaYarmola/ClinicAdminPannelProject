@@ -1,0 +1,195 @@
+body {
+    position: relative;
+}
+
+.header {
+    width: 100%;
+}
+
+.header__logo {
+    width: 50px;
+    height: 50px;
+    fill: white;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+    min-height: 100vh;
+}
+
+.main__container {
+    padding-top: 100px;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.js-login-request {
+    margin-top: 100px;
+}
+
+.container {
+    max-height: 90%;
+    margin: 0 auto;
+}
+
+footer {
+    color: white;
+}
+
+.copyright {
+    width: 20px;
+    height: 20px;
+    fill: white;
+}
+
+.cards-container {
+    display: flex;
+    grid-gap: 1rem;
+    align-items: start;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.bottom-buttons {
+    margin: 10px;
+}
+
+.btn-close {
+    position: absolute;
+    top: 6px;
+    right: 7px;
+}
+
+.moreInfo-container {
+    position: relative;
+}
+
+.btn-info {
+    position: relative;
+    background-color: #007bff;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.btn-info1 {
+    position: relative;
+    background-color: #007bff;
+    color: white;
+}
+
+.card-title {
+    position: relative;
+}
+
+.card-text {
+    position: relative;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    margin-bottom: 10px;
+}
+
+.content {
+    position: relative;
+}
+
+.additional-content {
+    display: none;
+    margin-top: 10px;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.expand-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.js-editForm {
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.js-editForm .modal-body {
+    margin-bottom: 20px;
+}
+
+.js-editForm .input-group {
+    margin-bottom: 10px;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 50;
+    display: none;
+  }
+
+
+
+
+
+
